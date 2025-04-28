@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="../QuizJavascript_S1_AguilarSantiago/styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="all">
-        <div class="first__rec">
-        
+        <div class="first__rc">
+            <img src="./img/background-main.svg" alt="main-bg" class="main__bg">
+        </div>
+        <div class="buttons__time">
+            <div class="buttons__time--today">
+                <button id="today">
+                    <p>Today</p>
+                </button>
+            </div>
+            <div class="buttons__time--tomorrow">
+                <button id="tomorrow">
+                    <p>Tomorrow</p>
+                </button>
+            </div>
+            <div class="buttons__time--10days">
+                <button id="10days">
+                    <p>10 days</p>
+                </button>
+            </div>
         </div>
     </div>
+    
+
+    <script type="module" src="./main.js"></script>
 </body>
 </html>
